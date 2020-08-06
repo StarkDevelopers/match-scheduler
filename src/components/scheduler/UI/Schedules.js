@@ -40,6 +40,10 @@ function Schedules(props) {
     <DialogTitle id="match-schedule" className={classes.headerContainer}><span className={classes.header}>Schedule</span></DialogTitle>
     <DialogContent>
       {
+        !schedules.length ? 
+        <Typography>
+          No Schedules for this Team ( Please Generate Schedules Again )
+        </Typography> :
         schedules.map((schedule, index) => (
           <Schedule key={index} schedule={schedule} pools={POOLS} teams={TEAMS} scheduleOfTeam={props.scheduleOfTeam} />
         ))
