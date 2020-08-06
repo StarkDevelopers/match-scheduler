@@ -40,7 +40,7 @@ function Schedules(props) {
     <DialogTitle id="match-schedule" className={classes.headerContainer}><span className={classes.header}>Schedule</span></DialogTitle>
     <DialogContent>
       {
-        !schedules.length ? 
+        !schedules.length ?
         <Typography>
           No Schedules for this Team ( Please Generate Schedules Again )
         </Typography> :

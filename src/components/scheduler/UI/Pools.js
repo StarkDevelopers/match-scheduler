@@ -12,6 +12,7 @@ const useStyles = makeStyles(theme => ({
     fontSize: theme.typography.pxToRem(15),
     flexBasis: '33.33%',
     flexShrink: 0,
+    fontWeight: 800
   },
   secondaryHeading: {
     fontSize: theme.typography.pxToRem(15),
@@ -60,7 +61,7 @@ function Pools(props) {
               aria-controls="panel1bh-content"
               id="panel1bh-header"
             >
-              <Typography className={classes.heading}><b>{pool.Name}</b></Typography>
+              <Typography className={classes.heading}>{pool.Name}</Typography>
               <Typography className={classes.secondaryHeading}>Teams - {pool.Teams.length}</Typography>
             </AccordionSummary>
             <AccordionDetails className={classes.accordionDetails}>
