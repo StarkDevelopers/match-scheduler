@@ -1,8 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+### `Project Description`
+1. App where you can plan weekend schedule for a 4 pools(Pool A, Pool B, Pool C and Pool D) of teams.
+2. Each Pool has 8 teams and Pools will be assigned by the user.
+3. Each team has to play a min of 8 games.
+    7 opponents from the same pool and 1 opponent from any Pool, exception being 8th opponent for any Pool can be only from the same Pool. example: If Pool A Team 1 opponent is from Pool B, every team from the Pool A should have opponent from Pool B.
+4. Only 5 games per weekend, meaning 5 time slots per weekend 3 on Saturday and 2 on Sunday.
 
 ### `npm start`
 
